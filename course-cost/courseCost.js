@@ -1,7 +1,7 @@
 function courseCost(courseCode, startDateStr){
 
     const startDate = new Date(startDateStr);  
-
+    console.log(startDate);
     const courses = {
         "p1" : {
             courseName : "Python",
